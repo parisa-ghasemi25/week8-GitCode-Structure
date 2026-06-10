@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    background-image: url("pic/b2929a88a9bf9e57b0da912de30a21fe.jpg");
+    text-align: center;
+   justify-items: center;
+    padding-top: 1rem;
+
+}
+
+
+.div-list {
+    margin-top: 30px;
+}
+
+
+.list_search {
+    width: 100%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 50px 0 80px 0;
+    padding: 20px 20px;
+    gap: 80px;
+    border: 1px solid #556664;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.492);
+}
+
+.div-input {
+
+    justify-items: center;
+    align-items: center;
+
+    margin: auto 0;
+
+
+}
+
+
+.div-radio-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 10px;
+    gap: 15px;
+
+}
+
+.input-search {
+    width: 400px;
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 20px;
+    border: 2px solid #556664;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.492);
+    color: #556664;
+
+}
+
+
+h4 {
+
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #556664;
+
+}
+
+.radio-filter {
+
+    padding-top: 20px;
+
+}
+
+button {
+    padding: 10px 40px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #f7e9db;
+    color: #556664;
+    border: 3px solid #556664;
+
+}
+
+
+button:hover {
+
+
+    background-color: #f7e2ce;
+}
+
+
+.table-userinfo {
+
+    background-color: #ffffffa9;
+    width: 100%;
+    border: 2px solid #556664;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    min-width: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.492);
+
+
+}
+
+
+
+.table-userinfo th,
+.table-userinfo td {
+    padding: 12px 30px;
+}
+
+
+
+.table-userinfo thead tr {
+    background-color: #556664;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.table-userinfo tbody tr {
+    border-bottom: 1px solid #000000;
+}
+
+
+
+.table-userinfo tbody tr:hover {
+    background-color: #f7e9db;
+
+}

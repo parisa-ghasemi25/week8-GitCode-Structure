@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="search_realtime.css">
+    <script src="search_realtime.js" defer></script>
+</head>
+
+<body>
+
+
+    <div class="main-div">
+
+        <div class="div-list">
+            <h2>جهت مشاهده لیست کاربران</h2>
+            <button class="btn-info"> کلیک کنید</button>
+        </div>
+        <div class="list_search">
+            <div class="div-radio-filter">
+                <h4>جستجو براساس:</h4>
+                <label>
+                    <input type="radio" name="search-filter" class="radio-filter" value="all" checked>
+                    همه
+                </label>
+
+                <label>
+                    <input type="radio" name="search-filter" class="radio-filter" value="name">
+                    نام و نام خانوادگی
+                </label>
+
+                <label>
+                    <input type="radio" name="search-filter" class="radio-filter" value="email">
+                    ایمیل
+                </label>
+
+                <label>
+                    <input type="radio" name="search-filter" class="radio-filter" value="city">
+                    شهر
+                </label>
+            </div>
+
+
+            <div class="div-input">
+
+
+                <input type="text" class="input-search" placeholder="جستجو کنید...">
+            </div>
+
+
+
+        </div>
+        <div class="div-result">
+            <table class="table-userinfo" border="1" style="padding: 2px;">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>نام و نام خانوادگی</th>
+                        <th>ایمیل</th>
+                        <th>شهر</th>
+                        <th>شغل</th>
+                        <th>وضعیت تاهل</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-userinfo">
+
+                </tbody>
+
+            </table>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
