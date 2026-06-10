@@ -14,7 +14,9 @@ body {
     width: 100%;
     min-height: 100vh;
     height: 100vh;
-    background-image: url("pic/b2929a88a9bf9e57b0da912de30a21fe.jpg");
+    
+    background-color: #ffffff;
+    
     text-align: center;
    justify-items: center;
     padding-top: 1rem;
